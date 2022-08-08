@@ -1,0 +1,16 @@
+ .destacado {
+    
+    color:red;
+    font-size:xx-large;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+}
+.fondo {
+    background-color: seashell;
+}
+
+h1 {
+    
+    text-align: center;
+}
