@@ -1,0 +1,51 @@
+.title {
+    padding-top: 25px;
+    padding-bottom: 15;
+    text-align: center;
+}
+
+#redes {
+    text-align: center;
+    padding-top: 50px;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li a {
+    background-color:rgba(243, 155, 72, 0.295);
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+    
+}
+
+.nav li a:hover {
+    background-color:rgba(206, 89, 55,0.24);
+    
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
