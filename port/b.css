@@ -1,0 +1,13 @@
+html, body {
+   margin: 0;
+   padding: 0;
+}
+#outer {
+   margin: 5em;
+   border: 1px solid #f00;
+}
+#inner {
+   width: 6em;
+   height: 4em;
+   background-color: #999;
+}
