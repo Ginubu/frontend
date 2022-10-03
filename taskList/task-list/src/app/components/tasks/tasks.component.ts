@@ -23,7 +23,12 @@ export class TasksComponent implements OnInit {
   }
 
   togglerReminder(task:Task){
-    console.log("hola");
     task.reminder = !task.reminder;
+    this.taskService.updateTaskReminder(task).subscribe();
+  }
+
+  addTask(task:Task)
+  {
+    
   }
 }
