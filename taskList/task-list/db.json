@@ -1,16 +1,13 @@
 {
   "tasks": [
     {
-      "id": 4,
-      "text": "fruta",
-      "day": "mayo 23",
-      "reminder": false
-    },
-    {
       "id": 1,
       "text": "carreta",
       "day": "mayo 23asdsad",
       "reminder": false
+    },
+    {
+      "id": 3
     },
     {
       "id": 2,

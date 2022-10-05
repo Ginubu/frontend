@@ -1,11 +1,9 @@
 import { Injectable } from '@angular/core';
 import {Task} from '../components/Task';
-import {TASKS} from '../components/moc-task';
-
 import {HttpClient, HttpHeaders} from '@angular/common/http'
 
 //para metodos asincronicos
-import { Observable,of } from 'rxjs';
+import { Observable} from 'rxjs';
 
 const httpOptions = {
   headers: new HttpHeaders({
@@ -24,21 +22,20 @@ export class TaskService {
   getTask(): Observable<Task[]>{
     return this.http.get<Task[]>(this.apiUrl);
   }
+
+
   deletTask(task:Task): Observable<Task>{
-    const url = `${this.apiUrl}/${task.id}`;
-    return this.http.delete<Task>(url);
+    const url = "${this.apiUrl}/${task.id}";
+    return this.http.delete<Task>(url,httpOptions);
   }
 
-  updateTaskReminder(task:Task): Observable<Task[]>{
-    const url = `${this.apiUrl}/${task.id}`;
-    
-    const t = task
-    console.log(t)
-    return this.http.put<Task[]>(url,t,httpOptions)
+  updateTaskReminder(task:Task): Observable<Task>{
+    const url = "${this.apiUrl}/${task.id}";
+    return this.http.put<Task>(url,task,httpOptions)
   }
 
-  
-
-
+  addTask(task:Task): Observable<Task>{
+    return this.http.post<Task>(this.apiUrl,task,httpOptions)
+  }
 
 }
