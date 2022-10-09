@@ -2,17 +2,26 @@
   "tasks": [
     {
       "id": 1,
-      "text": "carreta",
-      "day": "mayo 23asdsad",
-      "reminder": false
+      "text": "Hola",
+      "day": "sadasda",
+      "reminder": true
     },
     {
-      "id": 3
+      "id": 3,
+      "text": "chau",
+      "day": "caca",
+      "reminder": true
     },
     {
       "id": 2,
-      "text": "frcacauta",
-      "day": "mayosdada 23",
+      "text": "ñandu",
+      "day": "roberto",
+      "reminder": false
+    },
+    {
+      "id": 4,
+      "text": "alba",
+      "day": "fito",
       "reminder": true
     }
   ]
