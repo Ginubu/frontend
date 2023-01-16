@@ -14,7 +14,7 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
     this.obtenerDatos.obtenerDatos().subscribe(data => {
-      console.log(data);
+      //console.log(data);
     });
   }
 

@@ -44,6 +44,7 @@ p#cabecera{
 
 .trabajoCon:hover{
     background-color: rgb(213, 240, 231);
+    
 }
 
 .no-st{
@@ -60,4 +61,12 @@ p#cabecera{
 }
 .estudio{
     background-color:rgb(235, 185, 118);
+}
+
+.cursoCon:hover{
+    background-color:rgb(176, 245, 146);
+}
+.curso{
+    background-color:rgb(89, 232, 13);
+    
 }

@@ -10,12 +10,27 @@ import { PortfolioService } from 'src/app/services/portfolio.service'
 export class NavbarComponent implements OnInit {
 
   datos:any;
-  constructor(private obtenerDatos:PortfolioService ) { }
+  ddb:any;
+  constructor(private obtenerDatos:PortfolioService) { }
   
   ngOnInit(): void {
     this.obtenerDatos.obtenerDatos().subscribe(data => {
       this.datos = data;
     });
+
+
+    this.obtenerDatos.obtenerDatosDB().subscribe(data => {
+      this.ddb = data;
+      
+      for(let d of this.ddb){
+        console.log(d);
+      }
+      
+
+      
+    });
+
+
   }
 
 }
