@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ButtonComponent } from './button.component';
+import { Cur2AltiumComponent } from './cur2-altium.component';
 
-describe('ButtonComponent', () => {
-  let component: ButtonComponent;
-  let fixture: ComponentFixture<ButtonComponent>;
+describe('Cur2AltiumComponent', () => {
+  let component: Cur2AltiumComponent;
+  let fixture: ComponentFixture<Cur2AltiumComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ButtonComponent ]
+      declarations: [ Cur2AltiumComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ButtonComponent);
+    fixture = TestBed.createComponent(Cur2AltiumComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

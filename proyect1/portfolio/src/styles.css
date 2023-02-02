@@ -1,0 +1,82 @@
+/* You can add global styles to this file, and also import other style files */
+
+#cabecera {
+    color: azure;
+}
+
+h1#cabecera:hover{
+   color: aqua;
+}
+p#cabecera{
+    font-size: large;
+}
+
+.navbar:hover {
+    
+    margin-top: 1px;
+
+    
+}
+
+.linegrey {
+    border-color: antiquewhite;
+}
+
+.card {
+    
+    margin: 10px;
+}
+
+.text {
+    margin: 10px;   
+}
+
+.img-thumbnail{
+    width: 60%
+}
+.img-thumbnail:hover{
+    width: 100%
+}
+
+.trabajo{
+    background-color: aquamarine;
+}
+
+.trabajoCon:hover{
+    background-color: rgb(213, 240, 231);
+    
+}
+
+.no-st{
+    text-decoration: none;
+    color:black
+}
+.no-st:hover{
+    text-decoration: none;
+    color:black
+}
+
+.estudioCon:hover{
+    background-color:antiquewhite;
+}
+.estudio{
+    background-color:rgb(235, 185, 118);
+}
+
+.cursoCon:hover{
+    background-color:rgb(176, 245, 146);
+}
+.curso{
+    background-color:rgb(89, 232, 13);
+    
+}
+
+/* Detalle de trabajos*/
+
+.detalleT{
+    background-color: aquamarine;
+}
+
+p#trabajo{
+    color: aliceblue;
+}

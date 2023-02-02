@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Hola",
+      "day": "sadasda",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "ñandu",
+      "day": "roberto",
+      "reminder": false
+    },
+    {
+      "id": 4,
+      "text": "alba",
+      "day": "fito",
+      "reminder": true
+    }
+  ]
+}

@@ -36,6 +36,19 @@ body{
     font-size: 15px;
     font-family: inherit;
 }
+.btn_cruz {
+    display: inline-block;
+    background: rgb(255, 0, 0);
+    color: #fff;
+    border: none;
+    padding: 2px 4px;
+    margin: 1px;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: inherit;
+}
 .btn:focus {
     outline: none;
 }
