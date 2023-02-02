@@ -70,3 +70,13 @@ p#cabecera{
     background-color:rgb(89, 232, 13);
     
 }
+
+/* Detalle de trabajos*/
+
+.detalleT{
+    background-color: aquamarine;
+}
+
+p#trabajo{
+    color: aliceblue;
+}
