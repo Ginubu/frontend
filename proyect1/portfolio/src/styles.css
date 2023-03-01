@@ -77,6 +77,28 @@ p#cabecera{
     background-color: aquamarine;
 }
 
-p#trabajo{
-    color: aliceblue;
-}
+/*saco estilos del link*/
+.cleanAnchor {
+    text-decoration: none;
+  }
+
+  /* Eliminar el resaltado azul de los enlaces */
+  .cleanAnchor:link, .cleanAnchor:visited, .cleanAnchor:active {
+    color: black;
+  }
+  .cleanAnchor:hover{
+    font-size: larger;
+    color: brown;
+  }
+
+
+  .fontL{
+    font-size: larger;
+  }
+
+
+  /* estilos para la barra */
+
+  nav .nav-link.barra:hover{
+    color: rgb(242, 183, 20);
+  }
