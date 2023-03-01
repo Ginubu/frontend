@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PortfolioService } from 'src/app/services/portfolio.service'
 
 @Component({
   selector: 'app-sveltia',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SveltiaComponent implements OnInit {
 
-  constructor() { }
+  constructor(private obtenerDatos:PortfolioService) { }
+
+  datos:any;
+
 
   ngOnInit(): void {
+    this.obtenerDatos.obtenerDatos().subscribe(data => {
+      this.datos = data;
+    });
   }
 
 }

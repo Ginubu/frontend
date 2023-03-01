@@ -20,6 +20,7 @@ import { Trb1Component } from './components/trabajos/trb1/trb1.component';
 import { Cur1MetAgilComponent } from './components/cursos/cur1-met-agil/cur1-met-agil.component';
 import { Cur2AltiumComponent } from './components/cursos/cur2-altium/cur2-altium.component';
 import { SveltiaComponent } from './components/detalles/sveltia/sveltia.component';
+import { QtComponent } from './components/aptitudes/qt/qt.component';
 
 
 @NgModule({
@@ -38,7 +39,8 @@ import { SveltiaComponent } from './components/detalles/sveltia/sveltia.componen
     Trb1Component,
     Cur1MetAgilComponent,
     Cur2AltiumComponent,
-    SveltiaComponent
+    SveltiaComponent,
+    QtComponent
   ],
   imports: [
     BrowserModule,
