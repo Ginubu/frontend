@@ -23,6 +23,7 @@ import { SveltiaComponent } from './components/detalles/sveltia/sveltia.componen
 import { QtComponent } from './components/aptitudes/qt/qt.component';
 import { DetallesbkgComponent } from './components/detalles/detallesbkg/detallesbkg.component';
 import { CurMetComponent } from './components/detalles/cur-met/cur-met.component';
+import { CurAltiumComponent } from './components/detalles/cur-altium/cur-altium.component';
 
 
 @NgModule({
@@ -44,7 +45,8 @@ import { CurMetComponent } from './components/detalles/cur-met/cur-met.component
     SveltiaComponent,
     QtComponent,
     DetallesbkgComponent,
-    CurMetComponent
+    CurMetComponent,
+    CurAltiumComponent
   ],
   imports: [
     BrowserModule,
