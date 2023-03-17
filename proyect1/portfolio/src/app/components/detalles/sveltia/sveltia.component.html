@@ -3,19 +3,19 @@
 <div class="conteiner m-5 detalleT">
     <div class="row " >
         <h1 class="title m-2">
-            <a class="cleanAnchor" href="https://www.sveltia.com/es.html">Sveltia</a>
+            <a class="cleanAnchor" href={{datos.sveltia}}>Sveltia</a>
         </h1>
-        <p class="m-4">Es una fabrica de medicina estetica de alcance internacional en el que se desarrollan equipos de alta complejidad electronica</p>
+        <p class="m-4 fontL" >Es una fabrica de medicina estetica de alcance internacional en el que se desarrollan equipos de alta complejidad electronica</p>
         <br>
         <h3 >Detalles</h3>
-        <p class="m-4 ">A principios de 2022 comienzo a trabajar mediante una pasantia en esta empresa. <br>
+        <p class="m-4 fontL">A principios de 2022 comienzo a trabajar mediante una pasantia en esta empresa. <br>
             Trabaje 4 horas de lunes a viernes en modalidad mixta asistiendo de forma virtual, presencial en coworking y presencial en fabrica. <br>
             <strong> Actualmente trabajo 6 horas en fabrica.</strong> 
         </p>
         <br>
         <div class="mat-card m-4">
             <div class="card-title">
-                <h3>Aptitudes</h3>
+                <h3>Aptitudes Aprendidas</h3>
                 <div class="conteiner">
                     <div class="row">
                         <div class="col-4-md">
@@ -23,7 +23,16 @@
                                 <a href={{datos.qt}} class="cleanAnchor">Desarrollo en QT</a>
                             </div>
                             <div class="mat-card fontL">
-                                <a href="https://www.raspberrypi.com" class="cleanAnchor"> Raspberry pi </a> y <a href="https://es.wikipedia.org/wiki/Compilador_cruzado" class="cleanAnchor">Crosscompilado </a> 
+                                <a href={{datos.raspberry}} class="cleanAnchor"> Raspberry pi </a> y <a href={{datos.crosscompilado}} class="cleanAnchor">Crosscompilado </a> 
+                            </div>
+                            <div class="mat-card fontL">
+                                Programacion de microcontroladores  <a href={{datos.st}} class="cleanAnchor"> ST microcontroladores </a>
+                            </div>
+                            <div class="mat-card fontL">
+                                Curso en Metodologias Agiles  <a href="" class="cleanAnchor"></a>
+                            </div>
+                            <div class="mat-card fontL">
+                                Curso de Altium  <a href="" class="cleanAnchor"></a>
                             </div>
 
                         </div>
@@ -36,3 +45,5 @@
 
 
 </div>
+<app-footer></app-footer>
+

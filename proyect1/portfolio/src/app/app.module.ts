@@ -21,6 +21,8 @@ import { Cur1MetAgilComponent } from './components/cursos/cur1-met-agil/cur1-met
 import { Cur2AltiumComponent } from './components/cursos/cur2-altium/cur2-altium.component';
 import { SveltiaComponent } from './components/detalles/sveltia/sveltia.component';
 import { QtComponent } from './components/aptitudes/qt/qt.component';
+import { DetallesbkgComponent } from './components/detalles/detallesbkg/detallesbkg.component';
+import { CurMetComponent } from './components/detalles/cur-met/cur-met.component';
 
 
 @NgModule({
@@ -40,7 +42,9 @@ import { QtComponent } from './components/aptitudes/qt/qt.component';
     Cur1MetAgilComponent,
     Cur2AltiumComponent,
     SveltiaComponent,
-    QtComponent
+    QtComponent,
+    DetallesbkgComponent,
+    CurMetComponent
   ],
   imports: [
     BrowserModule,

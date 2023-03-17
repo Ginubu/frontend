@@ -1,0 +1,38 @@
+<app-navbar></app-navbar>
+
+<div class="conteiner m-5 detalleT">
+    <div class="row " >
+        <h1 class="title m-2">
+            <a class="cleanAnchor" href="https://www.sveltia.com/es.html">Metodologias Ágiles</a>
+        </h1>
+        <p class="m-4 fontL" >Curso donde aprendi a realizar el proceso de resolucion de las necesidades de la empresa aplicando metodologias ágiles. </p>    
+        <br>
+        <h3 >Detalles</h3>
+        <p class="m-4 fontL">Dentro de la empresa <a [routerLink]="['/sveltia']" class="cleanAnchor">Sveltia</a> realicé el curso de metodologias agiles con duracion de un total de 72 horas.<br> 
+            Aprendi como gestionar ideas para productos y distintas formas de desarrollarlas.<br>
+                Esta capacitacion fue llevada a cabo por la empresa <a href={{datos.evoltis}} class="cleanAnchor"> Evoltis</a>.
+        </p>
+        <br>
+        <div class="mat-card m-4">
+            <div class="card-title">
+                <h3>Aptitudes Aprendidas</h3>
+                <div class="conteiner">
+                    <div class="row">
+                        <div class="col-4-md">
+                           
+                            <div class="mat-card fontL">
+                                <a href={{datos.metdef}} class="cleanAnchor">Metodologias Agiles</a>
+                            </div>
+                          
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<app-footer></app-footer>
