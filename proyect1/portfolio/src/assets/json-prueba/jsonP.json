@@ -1,4 +1,11 @@
 {
     "nombre":"Gino",
-    "apellido":"Deangelli"
+    "apellido":"Deangelli",
+    "qt":"https://www.qt.io",
+    "raspberry":"https://www.raspberrypi.com",
+    "crosscompilado":"https://es.wikipedia.org/wiki/Compilador_cruzado",
+    "st":"https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html",
+    "sveltia":"https://www.sveltia.com/es.html",
+    "defmet":"https://es.wikipedia.org/wiki/Desarrollo_ágil_de_software",
+    "evoltis":"https://evoltis.com"
 }

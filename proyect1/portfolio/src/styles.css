@@ -84,7 +84,8 @@ p#cabecera{
 
   /* Eliminar el resaltado azul de los enlaces */
   .cleanAnchor:link, .cleanAnchor:visited, .cleanAnchor:active {
-    color: black;
+    color: rgb(168, 81, 44);
+
   }
   .cleanAnchor:hover{
     font-size: larger;
@@ -101,4 +102,11 @@ p#cabecera{
 
   nav .nav-link.barra:hover{
     color: rgb(242, 183, 20);
+    
+  }
+
+
+  .foto {
+    background-image: url('/src/assets/a.png');
+    background-size: cover;
   }
